@@ -1,0 +1,36 @@
+---
+import NavBtnMobile from './nav_btn_mobile.astro';
+const base = import.meta.env.PUBLIC_BASE_URL;
+---
+
+<div class="flex flex-1 justify-around pt-1 pb-4">
+  <NavBtnMobile
+    href={base}
+    svg="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.417.913.928.913h6.165c.511 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"
+    class="flex flex-col items-center p-3 rounded-full hover:bg-primary/10 transition-colors"
+    activeClass="text-primary font-semibold"
+    mobile
+  >
+    <span class="sr-only">Home</span>
+  </NavBtnMobile>
+
+  <NavBtnMobile
+    href={base + 'markdown/'}
+    svg="M20 22H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1zM7 6v4h4V6H7zm0 6v2h10v-2H7zm0 4v2h10v-2H7zm6-9v2h4V7h-4z"
+    class="flex flex-col items-center p-3 rounded-full hover:bg-primary/10 transition-colors"
+    activeClass="text-primary font-semibold"
+    mobile
+  >
+    <span class="sr-only">Posts</span>
+  </NavBtnMobile>
+
+  <NavBtnMobile
+    href={base + 'about/'}
+    svg="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0 -18m0.92 14.008a0.32 0.32 0 0 1 -0.312 0.312h-1.208a0.32 0.32 0 0 1 -0.312 -0.312V11.2a0.32 0.32 0 0 1 0.312 -0.312h1.216a0.32 0.32 0 0 1 0.312 0.312zM12 9.576a1.08 1.08 0 0 1 -1.08 -1.104A1.08 1.08 0 0 1 12 7.392a1.08 1.08 0 0 1 1.104 1.08 1.08 1.08 0 0 1 -1.104 1.104"
+    class="flex flex-col items-center p-3 rounded-full hover:bg-primary/10 transition-colors"
+    activeClass="text-primary font-semibold"
+    mobile
+  >
+    <span class="sr-only">About</span>
+  </NavBtnMobile>
+</div>
