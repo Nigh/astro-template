@@ -1,7 +1,7 @@
 
 # [Astro Template](https://nigh.github.io/astro-template/)
 
-![image](https://github.com/user-attachments/assets/4865abd6-ad35-48a7-a372-e7b78c6f7497)
+![design](https://github.com/user-attachments/assets/f8cab587-114c-4490-b1e8-578ea6a0a35a)
 
 It's a twitter-like Astro blog template. Based on [commit](https://github.com/Nigh/astro-demo/commit/977beef307ba171c1f6aa281746cbda4611b9417)
 
